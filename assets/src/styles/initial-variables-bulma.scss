@@ -1,30 +1,46 @@
 
-$black:        hsl(0, 0%, 4%) !default;
-$black-bis:    hsl(0, 0%, 7%) !default;
-$black-ter:    hsl(0, 0%, 14%) !default;
+// Set your brand colors
+$purple: #8A4D76;
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+$orange: hsl(14,  100%, 53%) !default;
 
-$grey-darker:  hsl(0, 0%, 21%) !default;
-$grey-dark:    hsl(0, 0%, 29%) !default;
-$grey:         hsl(0, 0%, 48%) !default;
-$grey-light:   hsl(0, 0%, 71%) !default;
-$grey-lighter: hsl(0, 0%, 86%) !default;
-$grey-lightest: hsl(0, 0%, 93%) !default;
+$yellow-ROE: #F5CC49;
+$purple-ROE: #484A83;
+$purple-04-ROE: rgba(72, 74, 131, 0.4);
 
-$white-ter:    hsl(0, 0%, 96%) !default;
-$white-bis:    hsl(0, 0%, 98%) !default;
-$white:        hsl(0, 0%, 100%) !default;
+$black-text-ROE: #333333;
+$black-titles-ROE: #2F2F2E;
+$grey-ROE: #B1AAA8;
+$grey-light-ROE: hsla(300, 4%, 68%, 0.2);
+// Update Bulma's global variables
+$grey-dark: $black-text-ROE;
+$grey-light: $beige-light;
 
-$orange:       hsl(14,  100%, 53%) !default;
-$yellow:       hsl(44,  100%, 77%) !default;
-$green:        hsl(153, 53%,  53%) !default;
-$turquoise:    hsl(171, 100%, 41%) !default;
-$cyan:         hsl(207, 61%,  53%) !default;
-$blue:         hsl(229, 53%,  53%) !default;
-$purple:       hsl(271, 100%, 71%) !default;
-$red:          hsl(348, 86%, 61%) !default;
+$primary: $yellow-ROE;
+$link: $purple-04-ROE;
+$info: $grey-light-ROE;
+$success: $purple-ROE;
+$warning: $pink;
+$danger: $orange;
+$dark: $black-titles-ROE;
+$text: $black-text-ROE;
+$link: $pink;
+
+$widescreen-enabled: true;
+$fullhd-enabled: true;
+
+// 4. modifier plus précisément les valeurs par défaut du thème
+$body-background-color: $grey-light-ROE;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
 
 // Typography
-$family-sans-serif: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !default;
+$family-sans-serif: "Nunito", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !default;
 $family-monospace: monospace !default;
 $render-mode: optimizeLegibility !default;
 
