@@ -13,8 +13,11 @@
 
 ## Get start
 
+### Front assets (webpack)
+- `npm install`
+- `npm run watch`
+
 ### Django app
 1. `pipenv install `
-2. 
-### Front assets (webpack)
-`npm init `
+2. `pipenv run manage.py collectstatic`
+3. `pipenv run manage.py runserver`
