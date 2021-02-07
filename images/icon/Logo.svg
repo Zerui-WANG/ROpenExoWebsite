@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="93.973" height="53.155" viewBox="0 0 93.973 53.155">
+  <g id="Logo" transform="translate(-12.535 -13.661)">
+    <line id="Ligne_1" data-name="Ligne 1" x2="15.027" transform="translate(44.245 64.816)" fill="#fff" stroke="#2f2f2e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    <line id="Ligne_2" data-name="Ligne 2" y2="43.447" transform="translate(51.759 19.369)" fill="#fff" stroke="#2f2f2e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    <line id="Ligne_3" data-name="Ligne 3" x2="20.789" transform="translate(41.364 41.923)" fill="#fff" stroke="#2f2f2e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    <line id="Ligne_4" data-name="Ligne 4" x2="31.24" transform="translate(36.139 52.689)" fill="#fff" stroke="#2f2f2e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    <path id="Tracé_252" data-name="Tracé 252" d="M51.663,16.489l-36.3,36.3,10.7,10.7" fill="none" stroke="#f5cc49" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    <path id="Tracé_253" data-name="Tracé 253" d="M72.959,16.489l36.3,36.3L124.446,37.6" transform="translate(-20.767)" fill="none" stroke="#f5cc49" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+  </g>
+</svg>
