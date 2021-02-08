@@ -9,6 +9,8 @@
 ### App
 - [Django]()
 - [Fontawesom](https://fontawesome.com/icons?d=gallery)
+- [Node]()
+- [Webpack]()
 
 
 ## Get start
