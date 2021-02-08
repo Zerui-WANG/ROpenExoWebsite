@@ -2,6 +2,6 @@
     "name": "Site hackathon ROpenExo 2021",
     "description": "Site réalisé durant le hackathon de ROpenExo",
     "repository": "https://github.com/Zerui-WANG/ROpenExoWebsite",
-    "logo": "#",
+    "logo": "http://www.cite-sciences.fr/fileadmin/_processed_/a/a/csm_ROpenExo_Hackathon_6a455af69e.png",
     "keywords": ["site", "django"]
 }
