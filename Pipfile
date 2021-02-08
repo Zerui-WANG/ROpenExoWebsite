@@ -7,6 +7,7 @@ name = "pypi"
 django = "*"
 fontawesome-free = "*"
 django-heroku = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.9"
