@@ -1,0 +1,7 @@
+{
+    "name": "Site hackathon ROpenExo 2021",
+    "description": "Site réalisé durant le hackathon de ROpenExo",
+    "repository": "https://github.com/Zerui-WANG/ROpenExoWebsite",
+    "logo": "https://i1.wp.com/ropenexo.com/wp-content/uploads/2020/10/cropped-LogoMakr-8MZWi8-3.png?fit=296%2C197&ssl=1",
+    "keywords": ["site", "django"]
+}
