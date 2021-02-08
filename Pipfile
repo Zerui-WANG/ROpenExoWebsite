@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 django = "*"
 fontawesome-free = "*"
+django-heroku = "*"
 
 [requires]
 python_version = "3.9"

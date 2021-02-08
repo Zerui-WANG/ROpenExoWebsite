@@ -125,3 +125,6 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join('staticFiles')
 
 STATICFILES_DIRS = [os.path.join('assets', 'dist'), os.path.join('images'),]
+
+import django_heroku
+django_heroku.settings(locals())
