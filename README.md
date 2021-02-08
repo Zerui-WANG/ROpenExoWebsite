@@ -9,8 +9,6 @@
 ### App
 - [Django]()
 - [Fontawesom](https://fontawesome.com/icons?d=gallery)
-- [Node]()
-- [Webpack]()
 
 
 ## Get start
@@ -26,6 +24,10 @@
 
 
 ## Deploy with heroku
+`heroku login`
+`heroku create`
+`heroku buildpacks:add --index 1 heroku/nodejs`
+`heroku buildpacks:add --index 2 heroku/python`
 `git push heroku main`
 
 More info just [here](https://devcenter.heroku.com/articles/git)
