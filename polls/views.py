@@ -9,6 +9,36 @@ def index(request):
     context = {'latest_question_list': latest_question_list}
     return render(request, 'polls/index.html', context)
 
+def storyboard(request):
+    storyboards = [
+        {
+            'title' : 'Storyboard_1',
+            'description' : 'Storyboard_Beneficaire_1',
+            'url' : 'storyboard/Storyboard_-_Beneficaire_1.jpg',
+        },
+        {
+            'title' : 'Storyboard_2',
+            'description' : 'Storyboard_Beneficaire_2',
+            'url' : 'storyboard/Storyboard_-_Beneficaire_2.jpg',
+        },
+        {
+            'title' : 'Storyboard_3',
+            'description' : 'Storyboard_Beneficaire_3',
+            'url' : 'storyboard/Storyboard_-_Beneficaire_3.jpg',
+        },
+        {
+            'title' : 'Storyboard_4',
+            'description' : 'Storyboard_Parent',
+            'url' : 'storyboard/Storyboard_-_Parent.jpg',
+        },
+        {
+            'title' : 'Storyboard_5',
+            'description' : 'Storyboard_Personel_soignant',
+            'url' : 'storyboard/Storyboard_-_Personnel_soignant.png',
+        },
+    ]
+    context = {'storyboards': storyboards}
+    return render(request, 'polls/storyboard.html', context)
 
 def detail(request, question_id):
     question = get_object_or_404(Question, pk = question_id)

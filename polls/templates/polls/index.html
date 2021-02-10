@@ -1,6 +1,7 @@
 {% extends "base.html" %} 
 
 {% block content %}
+<!--Section de bienvenue-->
 <div class="container is-fullhd">
     <div class="columns is-vcentered"> 
         <div class="column is-half content">
@@ -10,82 +11,69 @@
                 pour tous.
             </p>
             <div class="buttons">
-                <button class="button is-primary is-large is-half"><a href="storyboard.html">Je suis interessé</a></button>
+                <a class="button is-primary is-large is-half is-bold" href="{% url 'polls:storyboard' %}"><strong>Je suis interessé</strong></a>
             </div>
         </div>
         <div class="column">
-            <figure class="image is-30x30">
+            <figure class="image">
                 <img src="/static/icon/Mind_map-pana.svg">
             </figure>
         </div>
     </div>
 
+<!--Section Constat-->
     <div class="content">
         <h3>Notre constat</h3>
         <p>
             Les personnes ayant une déficience motrice du bras n’ont pas accès à une réelle 
             solution pour les gestessimples du quotidien : manger, boire, téléphoner …
         </p>
-    </div>
-    
-
-    <div class="tile is-ancestor">
-        <div class="tile is-parent">
-            <article class="tile is-child box">
-            <div class="content">
-                <p class="title">
-                    <figure class="image is-30x30">
-                        <img src="/static/icon/user.svg">
-                    </figure>
-                </p>
-                <p class="subtitle">Aides techniques</p>
-                <div class="content has-text-centered">
-                    <p>
-                        Réel besoin ! Il existe plus de 400 maladies neuromusculaires dégénératives 
-                        qui peuvent affecter la motricité du membre supérieur, soit des dizaines de milliers 
-                        d’enfants et adultes concernés en France.
-                    </p>
+        <div class="tile is-ancestor">
+            <div class="tile is-parent">
+                <article class="tile is-child box">
+                <div class="content">
+                    <img class="icon-ROE-homepage" src="/static/icon/user.svg">
+                    <p class="subtitle has-text-centered">Aides techniques</p>
+                    <div class="content has-text-centered">
+                        <p>
+                            Réel besoin ! Il existe plus de 400 maladies neuromusculaires dégénératives 
+                            qui peuvent affecter la motricité du membre supérieur, soit des dizaines de milliers 
+                            d’enfants et adultes concernés en France.
+                        </p>
+                    </div>
                 </div>
+                </article>
             </div>
-            </article>
-        </div>
-        <div class="tile is-parent">
-            <article class="tile is-child box">
-            <div class="content">
-                <p class="title">
-                    <figure class="image is-30x30">
-                        <img src="/static/icon/credit-card.svg">
-                    </figure>
-                </p>
-                <p class="subtitle has-text-centered">Non adaptés</p>
-                <div class="content has-text-centered">
-                    <p>
-                        Exosquelettes, robots d’assistance… Ces solutions hautement technologiques sont bien 
-                        ouvent inabordables pour les familles, et leur financement relève du parcours 
-                        du combattant.
-                    </p>
+            <div class="tile is-parent">
+                <article class="tile is-child box">
+                <div class="content">
+                    <img class="icon-ROE-homepage" src="/static/icon/credit-card.svg">
+                    <p class="subtitle has-text-centered">Non adaptés</p>
+                    <div class="content has-text-centered">
+                        <p>
+                            Exosquelettes, robots d’assistance… Ces solutions hautement technologiques sont bien 
+                            ouvent inabordables pour les familles, et leur financement relève du parcours 
+                            du combattant.
+                        </p>
+                    </div>
                 </div>
+                </article>
             </div>
-            </article>
-        </div>
-        <div class="tile is-parent">
-            <article class="tile is-child box">
-            <div class="content">
-                <p class="title">
-                    <figure class="image is-30x30">
-                        <img src="/static/icon/handicapped-sign.svg">
-                    </figure>
-                </p>
-                <p class="subtitle has-text-centered">Non adaptés</p>
-                <div class="content has-text-centered">
-                    <p>
-                        30 à 40% des aides techniques cessent d’être utilisées dans l’année qui suit leur 
-                        acquisition. La plupart des solutions existantes ne sont pas évolutives ou ne 
-                        s’adaptent pas à la réalité des besoins des malades. 
-                    </p>
+            <div class="tile is-parent">
+                <article class="tile is-child box">
+                <div class="content">
+                    <img class="icon-ROE-homepage" src="/static/icon/handicapped-sign.svg">
+                    <p class="subtitle has-text-centered">Non adaptés</p>
+                    <div class="content has-text-centered">
+                        <p>
+                            30 à 40% des aides techniques cessent d’être utilisées dans l’année qui suit leur 
+                            acquisition. La plupart des solutions existantes ne sont pas évolutives ou ne 
+                            s’adaptent pas à la réalité des besoins des malades. 
+                        </p>
+                    </div>
                 </div>
+                </article>
             </div>
-            </article>
         </div>
     </div>
 

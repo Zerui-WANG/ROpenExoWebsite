@@ -6,6 +6,7 @@ $brown: #757763;
 $beige-light: #D0D1CD;
 $beige-lighter: #EFF0EB;
 $orange: hsl(14,  100%, 53%) !default;
+$white: #FFFFFF;
 
 $yellow-ROE: #F5CC49;
 $purple-ROE: #484A83;
@@ -33,7 +34,7 @@ $widescreen-enabled: true;
 $fullhd-enabled: true;
 
 // 4. modifier plus précisément les valeurs par défaut du thème
-$body-background-color: $grey-light-ROE;
+$body-background-color: $white;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;

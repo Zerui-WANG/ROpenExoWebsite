@@ -10,3 +10,19 @@
 
 // Import specific styles
 @import "footer.scss";
+@import "header.scss";
+
+
+.icon-ROE-homepage{
+    width:40%;
+    margin: auto;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.icon-ROE-homepage::before{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: green;
+}

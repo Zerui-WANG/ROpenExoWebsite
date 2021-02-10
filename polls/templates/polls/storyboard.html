@@ -1,37 +1,21 @@
-{% extends base.html %}
+{% extends "base.html" %}
+
+{% load static %}
 
 {% block content %}
 
     <div class="tile is-ancestor">
         <div class="tile is-parent is-vertical">
-            <article class="tile is-child notification is-primary">
-            <p class="title">Vertical...</p>
-            <p class="subtitle">Top tile</p>
-            <figure class="image is-128x128">
-                <img src="../../images/storyboard/Storyboard_-_Parent.jpg">
-            </figure>
-            </article>
-            <article class="tile is-child notification is-primary">
-            <p class="title">...tiles</p>
-            <p class="subtitle">Bottom tile</p>
-            <figure class="image is-128x128">
-                <img src="../../images/storyboard/Storyboard_-_Parent.jpg">
-            </figure>
-            </article>
-            <article class="tile is-child notification is-primary">
-            <p class="title">Vertical...</p>
-            <p class="subtitle">Top tile</p>
-            <figure class="image is-128x128">
-                <img src="../../images/storyboard/Storyboard_-_Parent.jpg">
-            </figure>
-            </article>
-            <article class="tile is-child notification is-primary">
-            <p class="title">...tiles</p>
-            <p class="subtitle">Bottom tile</p>
-            <figure class="image is-128x128">
-                <img src="../../images/storyboard/Storyboard_-_Parent.jpg">
-            </figure>
-            </article>
+            {% for storyboard in storyboards %}
+                <article class="tile is-child notification is-primary">
+                    <p class="title">{{ storyboard.title }}</p>
+                    <p class="subtitle">{{ storyboard.description }}</p>
+                    <figure class="image">
+                        
+                        <img src="{% static storyboard.url %}" alt="storyboard-Parent">
+                    </figure>
+                </article>
+            {% endfor %}
         </div>
     </div>
 
