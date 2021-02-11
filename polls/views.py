@@ -40,6 +40,9 @@ def storyboard(request):
     context = {'storyboards': storyboards}
     return render(request, 'polls/storyboard.html', context)
 
+def aPropos(request):
+    return render(request, 'polls/aPropos.html')
+
 def detail(request, question_id):
     question = get_object_or_404(Question, pk = question_id)
     return render(request, 'polls/detail.html', {'question': question})
