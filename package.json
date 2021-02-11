@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "- [Python 3]()\r - [Pipenv]()",
   "main": "index.js",
+  "engines":{
+    "node": "14.15.4",
+    "npm": "7.5.2"
+  },
   "scripts": {
     "dev": "webpack --mode=development",
     "build": "webpack --mode=production",
