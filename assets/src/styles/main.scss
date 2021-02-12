@@ -30,13 +30,14 @@ $circle-width: 50px;
     width: $circle-width;
     height: $circle-width;
     border-radius: 50%;
-    background-color: rgba(245,204,73,0.3);
+    background-color: #F5CC4999;
     position: relative;
     margin-left: 35%;
     margin-top: 12px;
 }
 
 $padding-top-bottom-sections: 15px;
+
 .background-progress{
     background: linear-gradient(to right, #F5CC4933 70%, white 30%);
     padding-top: $padding-top-bottom-sections;
