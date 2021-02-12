@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="178.5" height="100" viewBox="0 0 178.5 100">
+  <g id="credit" transform="translate(-898.75 -1325)">
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="50" cy="50" r="50" transform="translate(898.75 1325)" fill="rgba(245,204,73,0.6)"/>
+    <g id="credit-card" transform="translate(948.75 1246.833)">
+      <g id="Groupe_24" data-name="Groupe 24" transform="translate(0 85.333)">
+        <g id="Groupe_23" data-name="Groupe 23">
+          <path id="Tracé_260" data-name="Tracé 260" d="M115.115,85.333H13.385A13.4,13.4,0,0,0,0,98.719v58.9A13.4,13.4,0,0,0,13.385,171H115.115A13.4,13.4,0,0,0,128.5,157.615v-58.9A13.4,13.4,0,0,0,115.115,85.333Zm8.031,72.281a8.041,8.041,0,0,1-8.031,8.031H13.385a8.041,8.041,0,0,1-8.031-8.031v-58.9a8.041,8.041,0,0,1,8.031-8.031H115.115a8.041,8.041,0,0,1,8.031,8.031v58.9Z" transform="translate(0 -85.333)" fill="#2f2f2e"/>
+        </g>
+      </g>
+      <g id="Groupe_26" data-name="Groupe 26" transform="translate(0 101.396)">
+        <g id="Groupe_25" data-name="Groupe 25" transform="translate(0 0)">
+          <path id="Tracé_261" data-name="Tracé 261" d="M125.823,149.333H2.677A2.678,2.678,0,0,0,0,152.01v16.063a2.678,2.678,0,0,0,2.677,2.677H125.823a2.678,2.678,0,0,0,2.677-2.677V152.01A2.679,2.679,0,0,0,125.823,149.333ZM123.146,165.4H5.354V154.687H123.146V165.4Z" transform="translate(0 -149.333)" fill="#2f2f2e"/>
+        </g>
+      </g>
+      <g id="Groupe_28" data-name="Groupe 28" transform="translate(16.063 138.875)">
+        <g id="Groupe_27" data-name="Groupe 27" transform="translate(0 0)">
+          <path id="Tracé_262" data-name="Tracé 262" d="M88.094,298.667H66.677a2.677,2.677,0,1,0,0,5.354H88.094a2.677,2.677,0,1,0,0-5.354Z" transform="translate(-64 -298.667)" fill="#2f2f2e"/>
+        </g>
+      </g>
+      <g id="Groupe_30" data-name="Groupe 30" transform="translate(16.063 149.583)">
+        <g id="Groupe_29" data-name="Groupe 29" transform="translate(0 0)">
+          <path id="Tracé_263" data-name="Tracé 263" d="M104.156,341.333H66.677a2.677,2.677,0,1,0,0,5.354h37.479a2.677,2.677,0,1,0,0-5.354Z" transform="translate(-64 -341.333)" fill="#2f2f2e"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

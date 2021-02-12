@@ -18,23 +18,23 @@ $circle-width: 50px;
     margin: auto;
     display: block;
     margin-bottom: 12px;
-    margin-top: -($icon-width/2 + $circle-width/2);
+    //margin-top: -($icon-width/2 + $circle-width/2);
 }
 
 // .span-icon-ROE-homepage {
 //     display: block;
 // }
-.span-icon-ROE-homepage::before{
-    display: block;
-    content: " ";
-    width: $circle-width;
-    height: $circle-width;
-    border-radius: 50%;
-    background-color: #F5CC4999;
-    position: relative;
-    margin-left: 35%;
-    margin-top: 12px;
-}
+// .span-icon-ROE-homepage::before{
+//     display: block;
+//     content: " ";
+//     width: $circle-width;
+//     height: $circle-width;
+//     border-radius: 50%;
+//     background-color: #F5CC4999;
+//     position: relative;
+//     margin-left: 35%;
+//     margin-top: 12px;
+// }
 
 $padding-top-bottom-sections: 15px;
 
