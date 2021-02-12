@@ -13,7 +13,7 @@
 
 
 .icon-ROE-homepage{
-    width:40%;
+    width:20%;
     margin: auto;
     display: block;
     margin-bottom: 12px;
@@ -23,5 +23,20 @@
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    background: green;
+}
+
+.background-progress{
+    background: linear-gradient(to right, #F5CC4933 70%, white 30%);
+}
+
+.double-border {
+    background-color: #F5CC4933;
+    border: 2px solid #F5CC49;
+    padding: 12px;
+}
+
+.double-border-thin{
+    background-color: #F5CC4933;
+    border: 2px solid #F5CC49;
+    padding: 6px;
 }
