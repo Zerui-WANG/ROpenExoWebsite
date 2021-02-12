@@ -11,22 +11,36 @@
 // Import specific styles
 @import "footer.scss";
 
-
+$icon-width: 85px;
+$circle-width: 50px;
 .icon-ROE-homepage{
-    width:20%;
+    width: $icon-width;
     margin: auto;
     display: block;
     margin-bottom: 12px;
+    margin-top: -($icon-width/2 + $circle-width/2);
 }
 
-.icon-ROE-homepage::before{
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
+// .span-icon-ROE-homepage {
+//     display: block;
+// }
+.span-icon-ROE-homepage::before{
+    display: block;
+    content: " ";
+    width: $circle-width;
+    height: $circle-width;
+    border-radius: 50%;
+    background-color: rgba(245,204,73,0.3);
+    position: relative;
+    margin-left: 35%;
+    margin-top: 12px;
 }
 
+$padding-top-bottom-sections: 15px;
 .background-progress{
     background: linear-gradient(to right, #F5CC4933 70%, white 30%);
+    padding-top: $padding-top-bottom-sections;
+    padding-bottom: $padding-top-bottom-sections;
 }
 
 .double-border {
