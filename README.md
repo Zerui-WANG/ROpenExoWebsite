@@ -1,5 +1,7 @@
 # ROpenExoWebsite
 
+Licence : CC-By-SA 4.0
+
 ## Requirements
 
 ### System
